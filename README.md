@@ -57,7 +57,9 @@ For an advanced example of what is possible with vba-test, check out the [tests 
 
 1. Download the [latest release (v2.0.0-beta.3)](https://github.com/vba-tools/vba-test/releases)
 2. Add `src/TestSuite.cls`, `src/TestCase.cls`, add `src/ImmediateReporter.cls` to your project
-3. If you're starting from scratch with Excel, you can use `vba-test-blank.xlsm`
+3. In the VBA Editor, select Tools | References and make sure `Microsoft Scripting Runtime` is checked
+
+If you're starting from scratch with Excel, you can use `vba-test-blank.xlsm`
 
 If you're updating from Excel-TDD v1, follow these [upgrade details](https://github.com/VBA-tools/vba-test/pull/23#issuecomment-416606307).
 

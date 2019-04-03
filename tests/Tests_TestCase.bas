@@ -109,11 +109,11 @@ Sub PassingAssertions(Suite As TestSuite)
         
         .IsEqual A, B
         
-        Set A = New Dictionary
+        Set A = New Scripting.Dictionary
         A("a") = 1
         A("b") = 2
         
-        Set B = New Dictionary
+        Set B = New Scripting.Dictionary
         B("a") = 1
         B("b") = 2
         
@@ -136,11 +136,11 @@ Sub PassingAssertions(Suite As TestSuite)
         
         .NotEqual A, B
         
-        Set A = New Dictionary
+        Set A = New Scripting.Dictionary
         A("a") = 1
         A("b") = 2
         
-        Set B = New Dictionary
+        Set B = New Scripting.Dictionary
         B("a") = 2
         B("b") = 1
         
